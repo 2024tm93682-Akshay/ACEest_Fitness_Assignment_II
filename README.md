@@ -1,9 +1,9 @@
 
 ---
 
-# 🏋️ ACEest Fitness & Gym – DevOps CI/CD Pipeline Project
+#  ACEest Fitness & Gym – DevOps CI/CD Pipeline Project
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the implementation of a complete **DevOps pipeline** for the ACEest Fitness & Gym application. The goal is to ensure **code integrity, automated testing, containerization, and continuous integration** using modern DevOps tools.
 
@@ -11,7 +11,7 @@ The application is built using **Flask (Python)** and follows a structured workf
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 * **Python (Flask)** – Backend web application
 * **Git & GitHub** – Version control system
@@ -22,7 +22,7 @@ The application is built using **Flask (Python)** and follows a structured workf
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 aceest-devops/
@@ -38,7 +38,7 @@ aceest-devops/
 
 ---
 
-## ⚙️ Local Setup Instructions
+##  Local Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -71,7 +71,7 @@ http://localhost:5000
 
 ---
 
-## 🧪 Running Tests Manually
+##  Running Tests Manually
 
 To validate application logic using Pytest:
 
@@ -87,7 +87,7 @@ Expected Output:
 
 ---
 
-## 🐳 Docker Setup & Execution
+##  Docker Setup & Execution
 
 ### 1. Build Docker Image
 
@@ -111,20 +111,20 @@ http://localhost:5000
 
 ---
 
-## 🔄 GitHub Actions CI/CD Pipeline
+##  GitHub Actions CI/CD Pipeline
 
-### 📌 Workflow Location:
+###  Workflow Location:
 
 ```
 .github/workflows/main.yml
 ```
 
-### 📌 Trigger:
+###  Trigger:
 
 * On every `push`
 * On every `pull_request`
 
-### 📌 Pipeline Stages:
+###  Pipeline Stages:
 
 1. **Build & Lint**
 
@@ -139,7 +139,7 @@ http://localhost:5000
 
    * Builds Docker container
 
-### 📌 How to Check:
+###  How to Check:
 
 1. Go to your GitHub repository
 2. Click on **Actions tab**
@@ -148,13 +148,13 @@ http://localhost:5000
 
 ---
 
-## 🏗️ Jenkins Build & Quality Gate
+##  Jenkins Build & Quality Gate
 
 Jenkins is used as a **secondary validation layer** to ensure the application builds successfully in an isolated environment.
 
 ---
 
-### 🔧 Jenkins Setup Steps
+###  Jenkins Setup Steps
 
 1. Open Jenkins:
 
@@ -185,7 +185,7 @@ docker build -t aceest-app .
 
 ---
 
-### ✅ Jenkins Validation
+###  Jenkins Validation
 
 * Click on build number
 * Open **Console Output**
@@ -198,7 +198,7 @@ Finished: SUCCESS
 
 ---
 
-## 🔁 CI/CD Workflow Summary
+##  CI/CD Workflow Summary
 
 | Stage                  | Tool           | Description                    |
 | ---------------------- | -------------- | ------------------------------ |
@@ -209,7 +209,7 @@ Finished: SUCCESS
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
 * Flask-based fitness management backend
 * REST API endpoints
@@ -220,7 +220,7 @@ Finished: SUCCESS
 
 ---
 
-## 📌 Evaluation Criteria Coverage
+##  Evaluation Criteria Coverage
 
 ✔ Application runs successfully
 
@@ -238,7 +238,7 @@ Finished: SUCCESS
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 This project successfully demonstrates a **complete DevOps lifecycle**, ensuring:
 
@@ -249,7 +249,7 @@ This project successfully demonstrates a **complete DevOps lifecycle**, ensuring
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Name - Akshay Salamwade**
 
