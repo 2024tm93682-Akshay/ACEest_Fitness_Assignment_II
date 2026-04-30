@@ -27,7 +27,7 @@ def init_db():
 
 @app.route('/')
 def home():
-    return "ACEest Fitness Backend Running 🚀"
+    return "ACEest Fitness Backend Running successfully! 🚀"
 
 @app.route('/clients', methods=['GET'])
 def get_clients():
